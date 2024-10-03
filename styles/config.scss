@@ -479,17 +479,17 @@ footer {
   background-color: var(--color-background-secondary);
   text-align: center;
 
-  
-  footer > .content {
-    display: grid;
-    justify-content: center;
-    gap: var(--vertical-space);
-  }
+  > {
+    .content {
+      display: grid;
+      justify-content: center;
+      gap: var(--vertical-space);
+    }
 
-  footer > section {
-    text-align: center;
+    section {
+      text-align: center;
+    }
   }
-
 
   ul {
     list-style: none;
